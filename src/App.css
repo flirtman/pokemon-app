@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  min-width: 500px;
+  justify-content: space-between;
+}
+
+.pokimon-img img {
+  max-width: 250px;
+}
+
+.pokimon-details {
+  text-align: left;
+}
+
+select {
+  padding: 15px 25px;
+  background: transparent;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+select option {
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttons button {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 15px 30px;
+  color: white;
+  cursor: pointer;
+  box-shadow: none;
+  border: 2px solid white;
+  text-transform: uppercase;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
